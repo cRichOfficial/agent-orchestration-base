@@ -1,3 +1,7 @@
+---
+description: This workflow is used to generate a new application from scratch based on a user prompt.
+---
+
 # App Generation Workflow
 
 This workflow is used to generate a new application from scratch based on a user prompt.

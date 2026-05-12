@@ -1,3 +1,7 @@
+---
+description: This workflow is used to add new features or modify existing ones in an established application.
+---
+
 # Feature Update Workflow
 
 This workflow is used to add new features or modify existing ones in an established application.

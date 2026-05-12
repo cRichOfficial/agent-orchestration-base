@@ -1,3 +1,7 @@
+---
+description: This workflow is used to resolve issues reported by users or QA.
+---
+
 # Bug Fix Workflow
 
 This workflow is used to resolve issues reported by users or QA.
