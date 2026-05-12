@@ -10,7 +10,8 @@ This workflow is used to resolve issues reported by users or QA.
 
 ### Phase 1: Triage (QA or User)
 1. **Report Bug**: A `bug_report` is created in `.agents/artifacts/bug_reports/`.
-2. **Prioritization**: The PM Agent reviews the bug and determines priority.
+2. **Environment Setup**: For web applications, the QA Agent requests the DevOps Agent to start the relevant servers/applications.
+3. **Prioritization**: The PM Agent reviews the bug and determines priority.
 
 ### Phase 2: Root Cause & Fix (Coder)
 3. **Investigation**: The Coder Agent uses the `resolve_bug` skill to perform an RCA.

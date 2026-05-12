@@ -7,6 +7,7 @@ This skill enables the QA Agent to validate that a newly implemented feature mee
 1. **Review Context**: Read the `feature_request` (requirements) and `tech_spec` (technical design) for the feature.
 2. **Setup Test Environment**: 
     - Checkout the relevant `feature/` branch.
+    - **Environment Activation**: If the application requires a running server, request the DevOps Agent to start the environment using the `manage_environment` skill.
     - Ensure all dependencies are installed and the environment is configured correctly.
 3. **Acceptance Criteria Validation**: 
     - For each criterion listed in the `feature_request`, perform targeted tests to confirm it is met.
